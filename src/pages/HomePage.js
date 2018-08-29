@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, ActivityIndicator, StyleSheet } from 'react-native';
-// import Header from '../components/Header';
+import Header from '../components/Header';
 // import PeopleList from '../components/PeopleList';
 import Axios from 'axios';
 
@@ -51,7 +51,7 @@ export default class HomePage extends React.Component {
             ? <ActivityIndicator size="large" color="#5d85f9" />
             : this.state.error 
                 ? <Text style={styles.error}>Ops. Something wrong.</Text>
-                : <Text style={styles.success}>Hello</Text>
+                : <Header />
         }
       </View>
     );

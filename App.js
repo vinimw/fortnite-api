@@ -10,7 +10,7 @@ export default createStackNavigator ({
   },
 }, {
   navigationOptions: {
-    title: 'People!',
+    title: 'Status',
     headerTintColor: '#FFF',
     headerStyle: {
       backgroundColor: '#264676',
